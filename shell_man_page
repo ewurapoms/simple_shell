@@ -1,0 +1,61 @@
+.TH man 1 "14 June 2023" "1.0" "Abmat Shell Manual"
+.SH NAME
+.B AbMat
+- A simple UNIX command line interpreter.
+.SH SYNOPSIS
+AbMat is a command line interpreter that reads and executes commands from the standard input.
+.SH DESCRIPTION
+The AbMat shell is a program that reads commands line by line from a file or the terminal.
+It interprets the lines and executes them if they are valid commands.
+
+.SH USAGE
+To compile the AbMat shell, use the following command on the latest version of Ubuntu:
+.br
+$ gcc -Wall -Werror -Wextra -pedantic *.c -o AbMat
+
+To start the shell, run:
+.br
+$ ./AbMat
+
+To exit the shell, use the following command:
+.br
+AbMat $ exit
+
+.SH BUILT-IN COMMANDS
+The AbMat shell supports the following built-in commands:
+
+.B env
+- Print the current environment variables.
+
+.B setenv VARIABLE VALUE
+- Initialize a new environment variable or modify an existing one.
+
+.B unsetenv VARIABLE
+- Remove an environment variable.
+
+.SH REDIRECTION
+The AbMat shell supports input and output redirection using the following symbols:
+
+.B >
+- Redirect the output of a command to a file, overwriting its contents if the file exists or creating a new file if it doesn't.
+
+.B >>
+- Redirect the output of a command to a file, appending the output to the file if it exists or creating a new file if it doesn't.
+
+.B <
+- Redirect the input of a command from a file.
+
+.SH PIPING
+The AbMat shell supports command piping using the "|" symbol. It allows the output of one command to be used as the input of another command.
+
+.SH RETURN VALUE
+The AbMat shell will exit with a status of 0 unless a different status is specified.
+
+.SH SEE ALSO
+.I sh(1)
+
+.SH BUGS
+No known bugs at this time.
+
+.SH AUTHORS
+This manual page was written by Pomaa Ewurah-Abena Oppong & Matilda Dogbatsey.
