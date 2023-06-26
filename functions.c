@@ -1,7 +1,7 @@
 #include "bools.h"
 
 /**
- * _isalpha - considers alphabetic characters 
+ * _isalpha - considers alphabetic characters
  * @c: represents characters to check
  * Return: 1 if c prints letters, else display 0
  */
