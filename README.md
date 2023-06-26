@@ -2,13 +2,13 @@ The simple shell project much like the printf project is another alx program eff
 
 For this project, team members are encouraged to research and implement resources that can guide them in completing a simple shell that models the UNIX command line interpreter (CIL).
 
-This project supports some common shell commands like the cat, pwd, ls... We have included amongst the files, a man page that summarizes our version of the simple shell for this project.
+This project supports some common shell commands and builtins like cat, cd, pwd, ls, emv, exit... We have included amongst the files, a man page that summarizes our version of the simple shell for this project.
 
 **Project tasks summary:**
 
-**C - Simple Shell**
+# C - Simple Shell
 
-/** Mandatory Tasks **/
+** Mandatory Tasks **
 
 **Task 0** - Write a beautiful code that passes the Betty checks
 
@@ -29,7 +29,7 @@ This project supports some common shell commands like the cat, pwd, ls... We hav
 **Task 5** - Simple shell 0.4 +
 - Implement the env **built in**, that prints the current environment
 
-/** Advanced Tasks **/
+** Advanced Tasks **
 
 **Task 6** - Simple shell 0.1 +
 - Write your own get line function
