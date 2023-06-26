@@ -2,7 +2,7 @@ The simple shell project much like the printf project is another alx program eff
 
 For this project, team members are encouraged to research and implement resources that can guide them in completing a simple shell that models the UNIX command line interpreter (CIL).
 
-This project supports some common shell commands and builtins like cat, cd, pwd, ls, emv, exit... We have included amongst the files, a man page that summarizes our version of the simple shell for this project.
+This project supports some common shell commands and builtins like cat, cd, pwd, ls, env, exit... We have included amongst the files, a man page that summarizes our version of the simple shell for this project.
 
 **Project tasks summary:**
 
@@ -32,7 +32,7 @@ This project supports some common shell commands and builtins like cat, cd, pwd,
 ** Advanced Tasks **
 
 **Task 6** - Simple shell 0.1 +
-- Write your own get line function
+- Write your own getline function
 - Use a buffer to read many chars at once and call the least possible the read system call
 - You will need to use static variables
 - You are not allowed to use getline
