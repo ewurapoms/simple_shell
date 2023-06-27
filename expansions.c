@@ -74,7 +74,7 @@ char *expand_alias(alias_t *aliases, char ***tokptr)
 void expand_vars(info_t *info, char ***tokptr)
 {
 	char **n = NULL, **p, **temp, **toks;
-	
+
 	for (toks = *tokptr; **tokptr; ++(*tokptr))
 	{
 		p = n;

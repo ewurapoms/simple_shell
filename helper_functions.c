@@ -153,7 +153,7 @@ quote_state_t _read_input(char **lineptr, int fd)
 					continue;
 				if (state & (QUOTE_DOUBLE | QUOTE_SINGLE))
 					index += 1;
-				/** possible fall through occurrence **/
+				/* fall through */
 		case 0:
 				state = quote_state(line[index]);
 				if (state & (QUOTE_DOUBLE | QUOTE_SINGLE | QUOTE_ESCAPE))
